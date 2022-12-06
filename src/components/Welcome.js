@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
-class Welcome extends Component{
-    render(){
+class Welcome extends Component {
+    render() {
         return <h1>Weclome Node Developer Kimaiyo</h1>
     }
 }
