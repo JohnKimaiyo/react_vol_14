@@ -6,6 +6,7 @@ import Hello from "./components/Hello";
 import Title from "./components/Title";
 import Myname from "./components/Myname";
 import Mycount from "./components/Mycount";
+import Form from "./components/Form";
 function App() {
   return (
     <div className="App">
@@ -15,8 +16,9 @@ function App() {
       <Title name="Frontend developer" />
       <Title name="Mobile developer" />
       <Title name="Solidity developer" />
-      <Myname/>
-      <Mycount/>
+      <Myname />
+      <Form />
+      <Mycount />
     </div>
   );
 }

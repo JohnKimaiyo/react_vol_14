@@ -9,7 +9,7 @@ function Form() {
         <input
           type="text"
           value={name}
-          onchange={(e) => setName(e.target.value)}
+          onChange={(e) => setName(e.target.value)}
           placeholder="Your Name"
         />
         <p>{name}</p>
