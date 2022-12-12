@@ -10,6 +10,7 @@ import Form from "./components/Form";
 import Users from "./components/Users";
 import Event from "./Event";
 import Range  from "./components/Range"
+import Submit from "./components/Submit";
 function App() {
   return (
     <div className="App">
@@ -25,6 +26,7 @@ function App() {
       <Users />
       <Event />
       <Range/>
+      <Submit/>
     </div>
   );
 }
